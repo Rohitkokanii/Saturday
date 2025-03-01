@@ -2,9 +2,9 @@
 
 int main() {
 
-	int num;
+	long long int num;
 	printf("\nEnter The No to Check it is factorial or not = ");
-	scanf_s("%d", &num);
+	scanf_s("%lld", &num);
 
 	int deno = 2;
 
@@ -14,11 +14,11 @@ int main() {
 			deno++;
 		}
 		else if (num == 1) {
-			printf("Given No. is fact of %d ", deno);
+			printf("\nGiven No. is fact of %d \n", deno);
 			break;
 		}
 		else {
-			printf("\nGiven No. is not Factorial of any no. \n");
+			printf("\nGiven No. is not Factorial of any no.\n");
 			break;
 		}
 	}
