@@ -3,7 +3,7 @@
 int main() {
 
 	long long int num;
-	printf("\nEnter The No to Check it is factorial or not = ");
+	printf("\nEnter The No. to Check it is factorial or not = ");
 	scanf_s("%lld", &num);
 
 	int deno = 2;
